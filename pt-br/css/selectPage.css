@@ -1,0 +1,53 @@
+body{
+
+    background-color: #121212;
+}
+h2, h1, p{
+    color: white; 
+}
+
+#selectHistoryt{
+
+    text-align: center;
+}
+
+.history-list{
+
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+.history-item a{
+    text-decoration: none;
+}
+
+.history-item p{
+    
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    background-size: 1920px, 160px;
+    font-size: 36px;
+    line-height: 200px;
+
+    
+
+}
+
+.history_list-bg{
+    background-size: 1920px 260px;
+    color: white;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.history_list-bg:hover{
+
+    transform: scale(1.1);
+}
+

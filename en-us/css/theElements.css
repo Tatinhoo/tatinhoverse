@@ -1,0 +1,55 @@
+body{
+
+    background-color: #121212;
+}
+h2, h1, p{
+    color: white; 
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    background-color: #1f1f1f;
+    padding-top: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar a{
+    font-family: 'Coolvetica', sans-serif;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: red;
+}
+
+
+ul{
+
+    list-style: none;
+}
+
+language img{
+    height: 2px;
+    text-align: center;
+
+}
+.language img:first-child {
+    margin-right: 20px;
+}
+
+.butt_pt-br{
+
+    background: none;
+    border: none;
+}
+.butt_en-us{
+
+    background: none;
+    border: none;
+}
